@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{63B352E0-6AED-4063-9930-42E720067C63}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{63B352E0-6AED-4063-9930-42E720067C63}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Criquets_RND" ID="{2D4AAC18-94D1-4BA3-BB4C-63434C5BEF54}">
+					<ChildrenList>
+						<Action Name="" ID="{D37646AA-8240-4847-BA8D-954C7C258E1D}" ShortID="312045326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Criquets_RND" ID="{25CC4B03-F274-492C-90E0-9AC02D708D11}" WorkUnitID="{7DC708AB-0571-4E0B-B790-BD5316D28846}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Criquets_RND_2" ID="{6158124F-8506-442E-8158-1DB3831E9B29}">
+					<ChildrenList>
+						<Action Name="" ID="{243A53FC-D51B-4FDF-ADE2-D1B2E4C34B40}" ShortID="698143779">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Criquets_RND" ID="{25CC4B03-F274-492C-90E0-9AC02D708D11}" WorkUnitID="{7DC708AB-0571-4E0B-B790-BD5316D28846}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

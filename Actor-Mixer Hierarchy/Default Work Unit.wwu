@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7DC708AB-0571-4E0B-B790-BD5316D28846}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{7DC708AB-0571-4E0B-B790-BD5316D28846}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Insecte" ID="{E91FE14A-0816-4D51-B20B-AE0F159798C0}" ShortID="178094984">
+					<ChildrenList>
+						<ActorMixer Name="Criquets" ID="{77CA12D0-EE55-4DFE-B034-CB56E4E596B5}" ShortID="835042465">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATN_Default" ID="{84EB64B4-C269-4EB3-8196-A1881EB376FF}" WorkUnitID="{AF3F2E77-92EF-4682-A338-36E7D3D1B3D1}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Opus Settings" ID="{ED1E50D6-470A-462E-92D0-6A5B71AA970A}" WorkUnitID="{67DA212B-230E-46E9-9B18-9A1A5812042B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Insectes" ID="{0EEFE7E0-627B-4DA2-AC0A-236241686FC1}" WorkUnitID="{1B355817-A6D4-415D-B411-95524B9963A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Criquet_Nuit" ID="{CE45FCF2-D02B-4BA4-97F7-1752521225FC}" ShortID="120430695">
+									<Comment>Author: MessyAcousticApocalypse666
+Src: https://freesound.org/people/MessyAcousticApocalypse666/sounds/594779/</Comment>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67DA212B-230E-46E9-9B18-9A1A5812042B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B355817-A6D4-415D-B411-95524B9963A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fichier" ID="{D99559EE-22D8-45F8-8807-74B90707367C}">
+											<Language>SFX</Language>
+											<AudioFile>Insectes\Criquets\594779__messyacousticapocalypse666__AMB_Criquet_Nuit.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="928418538"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fichier" ID="{D99559EE-22D8-45F8-8807-74B90707367C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Criquets_RND" ID="{25CC4B03-F274-492C-90E0-9AC02D708D11}" ShortID="142140420">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67DA212B-230E-46E9-9B18-9A1A5812042B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1B355817-A6D4-415D-B411-95524B9963A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_Criquet_Nuit_Long" ID="{EF7D2FF9-E604-4431-A24C-476E1F441BE3}" ShortID="344049064">
+											<Comment>Author: MessyAcousticApocalypse666
+Src: https://freesound.org/people/MessyAcousticApocalypse666/sounds/594779/</Comment>
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATN_Default" ID="{84EB64B4-C269-4EB3-8196-A1881EB376FF}" WorkUnitID="{AF3F2E77-92EF-4682-A338-36E7D3D1B3D1}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Opus Settings" ID="{ED1E50D6-470A-462E-92D0-6A5B71AA970A}" WorkUnitID="{67DA212B-230E-46E9-9B18-9A1A5812042B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Insectes" ID="{0EEFE7E0-627B-4DA2-AC0A-236241686FC1}" WorkUnitID="{1B355817-A6D4-415D-B411-95524B9963A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fichier" ID="{404E2143-AACA-43CA-943B-60555093DC3B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.038349805045"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="5.13223209954895"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="19.986607142857"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Insectes\Criquets\594779__messyacousticapocalypse666__AMB_Criquet_Nuit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="642203357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fichier" ID="{404E2143-AACA-43CA-943B-60555093DC3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_Criquet_Nuit_Short" ID="{BD7AF307-B7E8-4DBF-85DE-4F52AEB9E862}" ShortID="948657665">
+											<Comment>Author: MessyAcousticApocalypse666
+Src: https://freesound.org/people/MessyAcousticApocalypse666/sounds/594779/</Comment>
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="ATN_Default" ID="{84EB64B4-C269-4EB3-8196-A1881EB376FF}" WorkUnitID="{AF3F2E77-92EF-4682-A338-36E7D3D1B3D1}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Opus Settings" ID="{ED1E50D6-470A-462E-92D0-6A5B71AA970A}" WorkUnitID="{67DA212B-230E-46E9-9B18-9A1A5812042B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Insectes" ID="{0EEFE7E0-627B-4DA2-AC0A-236241686FC1}" WorkUnitID="{1B355817-A6D4-415D-B411-95524B9963A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fichier" ID="{336E18D4-42DD-4F0A-9853-6E889C36E7CF}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.01921083755664"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.13712442176192"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.14673140204479"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Insectes\Criquets\594779__messyacousticapocalypse666__AMB_Criquet_Nuit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="630260175"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fichier" ID="{336E18D4-42DD-4F0A-9853-6E889C36E7CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="AMB_Criquet_Nuit_Loop" ID="{5CDF596C-EFB4-470B-B434-45C493F7CABC}" ShortID="838506647">
+									<Comment>Author: MessyAcousticApocalypse666
+Src: https://freesound.org/people/MessyAcousticApocalypse666/sounds/594779/</Comment>
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATN_Default" ID="{84EB64B4-C269-4EB3-8196-A1881EB376FF}" WorkUnitID="{AF3F2E77-92EF-4682-A338-36E7D3D1B3D1}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Opus Settings" ID="{ED1E50D6-470A-462E-92D0-6A5B71AA970A}" WorkUnitID="{67DA212B-230E-46E9-9B18-9A1A5812042B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Insectes" ID="{0EEFE7E0-627B-4DA2-AC0A-236241686FC1}" WorkUnitID="{1B355817-A6D4-415D-B411-95524B9963A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fichier" ID="{BC36FF61-0C6C-456B-9891-EC8F18BFCC03}">
+											<Language>SFX</Language>
+											<AudioFile>Insectes\Criquets\594779__messyacousticapocalypse666__AMB_Criquet_Nuit.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="41474773"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fichier" ID="{BC36FF61-0C6C-456B-9891-EC8F18BFCC03}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
